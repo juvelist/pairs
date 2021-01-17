@@ -1,0 +1,67 @@
+/* base CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 100%;
+}
+
+body, textarea, select, input, button {
+  font: 16px 'roboto-regular', sans-serif;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0 !important;
+}
+
+
+input,
+textarea,
+select {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+input,
+textarea {
+  appearance: none;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+img, textarea {
+  vertical-align: top;
+}
+
+textarea {
+  resize: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000 !important;
+}
